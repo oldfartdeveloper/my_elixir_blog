@@ -2,7 +2,7 @@
 title: Old Fart's Elixir Blog
 email: scottnelsonsmith@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I am a recent enthusiast for Elixir.  As a beginner, I want to
+  I am a recent Elixir enthusiast.  As a beginner, I want to
   share insights when I discover them; maybe shorten the learning curve for others.
   Enjoy!
 baseurl: "/my_elixir_blog" # the subpath of your site, e.g. /blog
