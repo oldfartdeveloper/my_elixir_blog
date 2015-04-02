@@ -36,7 +36,7 @@ And he whips out his MacBook Air and goes to town:
 
 ```elixir
 iex(2)> quote do
-...(2)> def always_return_true, do: true
+...(2)>   def always_return_true, do: true
 ...(2)> end
 {:def, [context: Elixir, import: Kernel],
  [{:always_return_true, [context: Elixir], Elixir}, [do: true]]}
@@ -46,7 +46,7 @@ Behold, `quote` is a function that shows the compiled Elixir.  And he then shows
 
 ```elixir
 iex(3)> quote do
-...(3)> def always_return_true do true end
+...(3)>   def always_return_true do true end
 ...(3)> end
 {:def, [context: Elixir, import: Kernel],
  [{:always_return_true, [context: Elixir], Elixir}, [do: true]]}
@@ -59,9 +59,9 @@ So, once you're using `do/end`, you can now put code on multiple lines:
 
 ```elixir
 iex(3)> quote do
-...(3)> def always_return_true do
-...(3)> true
-...(3)> end
+...(3)>   def always_return_true do
+...(3)>     true
+...(3)>   end
 ...(3)> end
 {:def, [context: Elixir, import: Kernel],
  [{:always_return_true, [context: Elixir], Elixir}, [do: true]]}
