@@ -6,8 +6,6 @@ categories: elixir
 ---
 So I learn about defining named functions and I see the following variations:
 
-<!-- more -->
-
 ```elixir
 def always_return_true, do: true
 ```
@@ -21,6 +19,8 @@ end
 ```
 
 Uh, so why do we need the `,` and the `:` in the first one?
+
+<!-- more -->
 
 So yesterday I had the opportunity to pose the question to Jose Valim himself, and he said the following was another variation:
 
