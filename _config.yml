@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   share insights when I discover them; maybe shorten the learning curve for others.
   Enjoy!
 baseurl: "/my_elixir_blog" # the subpath of your site, e.g. /blog
-url: "http://scottnelsonsmith.com" # the base hostname & protocol for your site
+url: "http://blog.scottnelsonsmith.com" # the base hostname & protocol for your site
 twitter_username: _ofd
 github_username:  oldfartdeveloper
 timezone: America/Los_Angeles
