@@ -26,13 +26,13 @@ So yesterday I had the opportunity to pose the question to Jose Valim himself, a
 def always_return_true do true end
 ```
 
-Ahh, the light begins to come on.
+Ahh, the light bulbs begin to illuminate.
 
 Jose then asked: do you know about `quote`?
 
 Uh, no.
 
-And he whips out his MacBook Air and goes to town:
+And he whips out his MacBook Air and dashes out:
 
 ```elixir
 iex(2)> quote do
@@ -52,10 +52,10 @@ iex(3)> quote do
  [{:always_return_true, [context: Elixir], Elixir}, [do: true]]}
 ```
 
-and, lo, the compiled output is the same.  `do/end` is Elixir syntactical sugar that has less punctuation
+and, lo, the compiled output is *the same*.  `do ... end` is Elixir syntactical sugar that has less punctuation
 noise than `..., do: xxx` (though the latter is shorter?).  The `..., do: xxx` variation is closer to Erlang syntax.
 
-So, once you're using `do/end`, you can now put code on multiple lines:
+So, once you're using `do ... end`, you can now put code on multiple lines:
 
 ```elixir
 iex(3)> quote do
