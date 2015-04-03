@@ -6,6 +6,8 @@ categories: elixir
 ---
 So I learn about defining named functions and I see the following variations:
 
+<!-- more -->
+
 ```elixir
 def always_return_true, do: true
 ```
