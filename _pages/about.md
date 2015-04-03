@@ -1,7 +1,7 @@
 ---
-layout: page
 title: About
 permalink: /about/
+layout: page
 ---
 
 This is my blog for his learning and implementing experiences with Elixir.
