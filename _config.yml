@@ -14,7 +14,7 @@ timezone: America/Los_Angeles
 # From http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/
 include: ['_pages']
 relative_permalinks: false
-
+excerpt_separator: "<!-- more -->"
 permalink:     '/blog/:year/:title/'
 paginate:      10
 paginate_path: '/blog/page:num/'
